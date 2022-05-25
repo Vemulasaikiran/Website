@@ -50,6 +50,8 @@
     height: 594px;
   }
   .customer_experience_left{
+    height: auto;
+    width: auto;
 
   }
   .customer_experience_left h1 {
@@ -305,9 +307,13 @@ width: 90%;
 }
 .ellipse_card{
   width: 100%;
+  
 }
+
+
 .testimonial_card{
   width: 100%;
+  
 }
 .social_icons {
   right: 0;
@@ -385,7 +391,7 @@ width: 90%;
 .testimonial_in h2 {
   font-size: 35px;
   line-height: 45px;
-  padding-bottom: 108px;
+  padding-bottom: 100px;
 }
 footer{
   padding-top: 0px;
@@ -398,6 +404,8 @@ footer{
 }
 .testimonial{
   padding: 50px 0;
+  padding-bottom: 10px;
+  margin-bottom: 20;
 }
 .our_story{
   padding: 50px 0 0;

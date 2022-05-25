@@ -577,11 +577,11 @@ canvas{
   line-height: 78px;
   color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
-  font-weight: 600;
+  font-weight: auto;
   margin: 0;
 }
 .customer_experience_left p {
-  font-size: 15px;
+  font-size: 20px;
   line-height: 28px;
   color: #FFFFFF;
   font-weight: 400;
@@ -742,6 +742,9 @@ canvas{
   position: relative;
 }
 .services_left img{
+  height: auto;
+  width: auto;
+  
 }
 .our_services_icon{
   padding: 16px 0;
@@ -984,7 +987,7 @@ transform: scale(1.1);
 }
 .our_story_in_card h5{
   font-size: 14px;
-  line-height: 28px;
+  line-height: 25px;
   color: #A4A4A4;
   font-weight: 400;
   padding-top: 20px;
@@ -1020,12 +1023,13 @@ transform: scale(1.1);
   /*background: url(../images/singapore_cag.avif) no-repeat;*/
   background-size: cover;
   padding: 20px 0;
+  margin-bottom: 20;
 }
 .testimonial_card{
-  width: 580px;
+  width: 280px;
   margin: 0 auto;
-  background: #ffffff;
-  box-shadow: 0px 0px 50px #00000029;
+  background:none;
+  box-shadow: 0px 0px 50px #f6f4f429;
   position: relative;
   padding: 20px 10px 10px 10px;
 }
@@ -1054,20 +1058,31 @@ transform: scale(1.1);
   line-height: 30px;
   color: #5D6BCF;
   font-weight: 400;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  
 }
+
 .testimonial_card img{
 
+  border-radius: 25px;
+  border: 2px solid;
+  padding: 20px; 
+  width: auto;
+  height: auto; 
 }
 
 .testimonial_in h2{
   font-size: 40px;
-  line-height: 50px;
+  line-height: 5px;
   color: #6A5DD1;
   text-align: center;
   font-weight: 600;
   text-transform: uppercase;
   padding-bottom: 50px;
+  
 }
 .ellipse{
   position: absolute;
@@ -1079,6 +1094,7 @@ transform: scale(1.1);
 }
 .testimonial_in{
   position: relative;
+
 }
 .quotes_white{position: absolute;left: 0;bottom: -80px;}
 .quotes_white > img{
